@@ -135,28 +135,3 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media')
 
-
-# # S3 BUCKETS CONFIG
-# AWS_ACCESS_KEY_ID="AKIATPFC6DI3QLHZ7HEU"
-# AWS_SECRET_ACCESS_KEY="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"
-# AWS_STORAGE_BUCKET_NAME="imagestore-bucket"
-# AWS_S3_FILE_OVERWRITE=False
-# AWS_DEFAULT_ACL=None
-# DEFAULT_FILE_STORAGE="storages.backends.s3boto3.S3Boto3Storage"
-# STATICFILES_STORAGE="storages.backends.s3boto3.S3Boto3Storage"
-# AWS_S3_REGION_NAME="ap-south-1"
-# AWS_S3_SIGNATURE_VERSION="s3v4"
-
-# '''
-# <?xml version="1.0" encoding="UTF-8"?>
-# <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
-# <CORSRule>
-#     <AllowedOrigin>*</AllowedOrigin>
-#     <AllowedMethod>GET</AllowedMethod>
-#     <AllowedMethod>POST</AllowedMethod>
-#     <AllowedMethod>PUT</AllowedMethod>
-#     <AllowedHeader>*</AllowedHeader>
-# </CORSRule>
-# </CORSConfiguration>
-# '''
-
